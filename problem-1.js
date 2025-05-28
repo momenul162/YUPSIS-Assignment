@@ -15,4 +15,4 @@ const mojoAndMutkiExchange = (initialMojos) => {
   return mojos;
 };
 
-console.log(mojoAndMutkiExchange(4));
+console.log(mojoAndMutkiExchange(10));

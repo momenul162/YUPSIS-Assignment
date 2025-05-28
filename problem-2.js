@@ -54,7 +54,7 @@ console.log("After sale:", afterSale);
 
 const afterPurchase = updateStock(
   afterSale,
-  { tons: 1, kilograms: 0, grams: 30, milligrams: 0 },
+  { tons: 2, kilograms: 1, grams: 1, milligrams: 0 },
   "purchase"
 );
 
