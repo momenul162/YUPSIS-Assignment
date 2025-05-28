@@ -47,7 +47,7 @@ function processNextPayment() {
     if (payment.attemptCount <= retryDelays.length) {
       const delayMinutes = retryDelays[payment.attemptCount - 1];
 
-      const nextRetry = new Date(Date.now() + delayMinutes * 1000);
+      const nextRetry = new Date(Date.now() + delayMinutes * 60000);
 
       payment.nextRetryAt = nextRetry.toISOString();
 
